@@ -1,0 +1,27 @@
+Project: subcuenca1_simple
+     Description: 
+     Version: 4.8
+     Filepath Separator: \
+     DSS File Name: subcuenca1_simple.dss
+     Time Zone ID: America/Buenos_Aires
+End:
+
+Precipitation: Feb12_2001
+     Filename: Feb12_2001.met
+     Description: 
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 14:27
+End:
+
+Basin: Basin 1
+     Filename: Basin_1.basin
+     Description: 
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 14:23
+End:
+
+Control: Feb12_2001
+     FileName: Feb12_2001.control
+     Description: 
+End:
+

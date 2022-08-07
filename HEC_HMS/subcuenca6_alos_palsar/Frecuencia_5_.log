@@ -1,0 +1,10 @@
+NOTE 15301:  Began computing simulation run "Frecuencia 5%" at time 02Feb2022, 15:43:47.
+NOTE 20364:  Found no parameter problems in meteorologic model "Frecuencia 5%".
+NOTE 40049:  Found no parameter problems in basin model "Basin 1".
+WARNING 41743:  Initial abstraction ratio for subbasin "sc1" is 0.0.
+WARNING 41743:  Initial abstraction ratio for subbasin "sc2" is 0.0.
+WARNING 41743:  Initial abstraction ratio for subbasin "sc3" is 0.0.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc1" is 1.0000 mm.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc2" is 1.0000 mm.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc3" is 1.0000 mm.
+NOTE 15302:  Finished computing simulation run "Frecuencia 5%" at time 02Feb2022, 15:43:47.

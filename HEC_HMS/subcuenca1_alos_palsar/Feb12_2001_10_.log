@@ -1,0 +1,19 @@
+NOTE 15301:  Began computing simulation run "Feb12_2001 10%" at time 30Jan2022, 13:43:55.
+NOTE 20364:  Found no parameter problems in meteorologic model "Feb12_2001 10%".
+NOTE 40049:  Found no parameter problems in basin model "Basin 1".
+WARNING 41743:  Initial abstraction ratio for subbasin "sc3" is 0.0.
+WARNING 41743:  Initial abstraction ratio for subbasin "sc1" is 0.0.
+WARNING 41743:  Initial abstraction ratio for subbasin "sc2" is 0.0.
+WARNING 41743:  Initial abstraction ratio for subbasin "sc4" is 0.0.
+WARNING 41743:  Initial abstraction ratio for subbasin "sc5" is 0.0.
+WARNING 20657:  Hyetograph gage "Feb12_2001_sc3" for subbasin "sc3" contains 46 missing or negative precipitation values that were set to zero.
+WARNING 20657:  Hyetograph gage "Feb12_2001" for subbasin "sc1" contains 46 missing or negative precipitation values that were set to zero.
+WARNING 20657:  Hyetograph gage "Feb12_2001" for subbasin "sc2" contains 46 missing or negative precipitation values that were set to zero.
+WARNING 20657:  Hyetograph gage "Feb12_2001" for subbasin "sc4" contains 46 missing or negative precipitation values that were set to zero.
+WARNING 20657:  Hyetograph gage "Feb12_2001" for subbasin "sc5" contains 46 missing or negative precipitation values that were set to zero.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc3" is 1.0000 mm.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc1" is 1.0000 mm.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc2" is 1.0000 mm.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc4" is 1.0000 mm.
+NOTE 42413:  Unit hydrograph volume for subbasin "sc5" is 0.9813 mm.
+NOTE 15302:  Finished computing simulation run "Feb12_2001 10%" at time 30Jan2022, 13:43:55.

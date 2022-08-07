@@ -1,0 +1,126 @@
+Geom Title=Canal Cintura Norte
+Program Version=4.10
+Viewing Rectangle=-0.5778 , 1.5778 , 1 , 0 
+
+River Reach=CCN             ,1               
+Reach XY= 6 
+-0.41977611940290.41417910447761-0.10634328358200.42164179104478
+0.050373134328360.451492537313430.587686567164180.58208955223881
+1.046641791044780.742537313432841.240671641791040.80970149253731
+Rch Text X Y=-0.0046642,0.5130597
+Reverse River Text= 0 
+
+Type RM Length L Ch R = 1 ,894     ,28,30,32
+Node Last Edited Time=Jul-30-2022 20:27:12
+#Sta/Elev= 9 
+       0  688.26       2  690.44       6   687.6      10  685.75    11.5  684.16
+    12.6  684.26    13.5  685.75    14.5  686.05      17   690.4
+#Mann= 3 , 0 , 0 
+       0     .03       0       2     .03       0      17     .03       0
+Bank Sta=2,17
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,864     ,28,30,32
+BEGIN DESCRIPTION:
+Copia de la 894
+END DESCRIPTION:
+Node Last Edited Time=Jul-30-2022 20:27:35
+#Sta/Elev= 9 
+       0  688.26       2  690.44       6   687.6      10  685.75    11.5  684.16
+    12.6  684.26    13.5  685.75    14.5  686.05      17   690.4
+#Mann= 3 , 0 , 0 
+       0     .03       0       2     .03       0      17     .03       0
+Bank Sta=2,17
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,834     ,42,42.76,43.5
+Node Last Edited Time=Jul-30-2022 20:27:59
+#Sta/Elev= 9 
+       0   687.3       2   688.3     3.8   687.1     4.8   683.7     9.8   682.6
+    12.8   683.7    13.8   686.9    15.8   687.6    18.8  687.13
+#Mann= 3 , 0 , 0 
+       0     .03       0       2     .03       0    15.8     .03       0
+Bank Sta=2,15.8
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,791     ,17.24,17.24,17.24
+BEGIN DESCRIPTION:
+Copia de 774
+END DESCRIPTION:
+Node Last Edited Time=Jul-30-2022 20:28:25
+#Sta/Elev= 9 
+       0  682.65     1.4  683.44     3.2  682.33     4.2  680.33     7.7   679.8
+     7.9     678    11.3  681.98    13.9  682.64    15.1  682.04
+#Mann= 3 , 0 , 0 
+       0     .03       0     1.4     .03       0    13.9     .03       0
+Bank Sta=1.4,13.9
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,774     ,40,40,40
+Node Last Edited Time=Jul-30-2022 20:28:46
+#Sta/Elev= 9 
+       0  682.65     1.4  683.44     3.2  682.33     4.2  680.33     7.7   679.8
+     7.9     678    11.3  681.98    13.9  682.64    15.1  682.04
+#Mann= 3 , 0 , 0 
+       0     .03       0     1.4     .03       0    13.9     .03       0
+Bank Sta=1.4,13.9
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,734     ,36,36,36
+Node Last Edited Time=Jul-30-2022 20:29:09
+#Sta/Elev= 10 
+       0  680.04     3.2  680.74       5  680.33       8  678.33      12  678.67
+    13.2  678.16    17.7  678.05    18.9  680.42    20.5  681.26    22.2  679.44
+#Mann= 3 , 0 , 0 
+       0     .03       0     3.2     .03       0    20.5     .03       0
+Bank Sta=3.2,20.5
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,698     ,50,50,50
+Node Last Edited Time=Jul-30-2022 20:29:27
+#Sta/Elev= 8 
+       0   679.5     8.4   680.4    11.4   676.4    15.4  676.18    19.4  676.14
+    21.4  677.98    25.4   679.1    30.6     678
+#Mann= 3 , 0 , 0 
+       0     .03       0     8.4     .03       0    25.4     .03       0
+Bank Sta=8.4,25.4
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,648     ,20,20,20
+Node Last Edited Time=Jul-30-2022 20:29:42
+#Sta/Elev= 8 
+       0   679.5     8.4   680.4    11.4   676.4    15.4  676.18    19.4  676.14
+    21.4  677.98    25.4   679.1    30.6     678
+#Mann= 3 , 0 , 0 
+       0     .03       0     8.4     .03       0    25.4     .03       0
+Bank Sta=8.4,25.4
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,628     ,,,
+Node Last Edited Time=Jul-30-2022 20:29:57
+#Sta/Elev= 8 
+       0   679.5     8.4   680.4    11.4   676.4    15.4  676.18    19.4  676.14
+    21.4  677.98    25.4   679.1    30.6     678
+#Mann= 3 , 0 , 0 
+       0     .03       0     8.4     .03       0    25.4     .03       0
+Bank Sta=8.4,25.4
+XS Rating Curve= 0 ,0
+Exp/Cntr=0.3,0.1
+
+Chan Stop Cuts=-1 
+
+
+
+Use User Specified Reach Order=0
+GIS Ratio Cuts To Invert=-1
+GIS Limit At Bridges=0
+Composite Channel Slope=5
+Composite Channel Off=-1

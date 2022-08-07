@@ -1,0 +1,62 @@
+Run: Feb12_2001
+     Default Description: Yes
+     Log File: Feb12_2001.log
+     DSS File: Feb12_2001.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 30 January 2022
+     Last Modified Time: 16:34:08
+     Last Execution Date: 1 February 2022
+     Last Execution Time: 15:14:21
+     Basin: Basin 1
+     Precip: Feb12_2001
+     Control: Feb12_2001
+     Save State Type: None
+     Time-Series Output: Save All
+End:
+
+Run: Feb12_2001 10%
+     Default Description: Yes
+     Log File: Feb12_2001_10_.log
+     DSS File: Feb12_2001_10_.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 30 January 2022
+     Last Modified Time: 16:43:13
+     Last Execution Date: 30 January 2022
+     Last Execution Time: 16:43:55
+     Basin: Basin 1
+     Precip: Feb12_2001 10%
+     Control: Feb12_2001
+     Save State Type: None
+     Time-Series Output: Save All
+End:
+
+Run: Feb12_2001_adelanto_sc3
+     Default Description: Yes
+     Log File: Feb12_2001_adelanto_sc3.log
+     DSS File: Feb12_2001_adelanto_sc3.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 1 February 2022
+     Last Modified Time: 15:56:10
+     Last Execution Date: 1 February 2022
+     Last Execution Time: 15:57:12
+     Basin: Basin 1
+     Precip: Feb12_2001_adelanto
+     Control: Feb12_2001
+     Time-Series Output: Save All
+End:
+
+Run: Feb12_2001_atraso_sc3
+     Default Description: Yes
+     Log File: Feb12_2001_atraso_sc3.log
+     DSS File: Feb12_2001_atraso_sc3.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 1 February 2022
+     Last Modified Time: 16:06:57
+     Last Execution Date: 1 February 2022
+     Last Execution Time: 16:07:06
+     Basin: Basin 1
+     Precip: Feb12_2001_adelanto
+     Control: Feb12_2001
+     Time-Series Output: Save All
+End:
+

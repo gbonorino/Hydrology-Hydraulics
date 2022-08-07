@@ -1,0 +1,26 @@
+Gage Manager: cuenca 2 simple
+     Version: 4.8
+     Filepath Separator: \
+End:
+
+Gage: Feb12_2001
+     Last Modified Date: 7 February 2022
+     Last Modified Time: 19:52:19
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Cumulative
+     Units: MM
+     Data Type: INST-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 January 2022
+       Last Variant Modified Time: 16:30:54
+       Default Variant: Yes
+       DSS File Name: cuenca_2_simple.dss
+       DSS Pathname: //Feb12_2001/PRECIP-CUM//30MIN/GAGE/
+       Start Time: 11 February 2001, 23:30
+       End Time: 12 February 2001, 12:30
+     End Variant: Variant-1
+End:
+

@@ -1,0 +1,70 @@
+Gage Manager: subcuenca1_alos-palsar
+     Version: 4.8
+     Filepath Separator: \
+End:
+
+Gage: Feb12_2001
+     Last Modified Date: 30 January 2022
+     Last Modified Time: 16:31:33
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Cumulative
+     Units: MM
+     Data Type: INST-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 January 2022
+       Last Variant Modified Time: 16:30:54
+       Default Variant: Yes
+       DSS File Name: subcuenca1_alos_palsar.dss
+       DSS Pathname: //Feb12_2001/PRECIP-CUM//30MIN/GAGE/
+       Start Time: 11 February 2001, 23:30
+       End Time: 12 February 2001, 12:30
+     End Variant: Variant-1
+End:
+
+Gage: Feb12_2001_adelanto
+     Description: La lluvia base adelandata 30 minutos
+     Last Modified Date: 1 February 2022
+     Last Modified Time: 15:56:47
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Cumulative
+     Units: MM
+     Data Type: INST-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 1 February 2022
+       Last Variant Modified Time: 15:54:54
+       Default Variant: Yes
+       DSS File Name: subcuenca1_alos_palsar.dss
+       DSS Pathname: //Feb12_2001_adelanto/PRECIP-CUM//30MIN/GAGE/
+       Start Time: 11 February 2001, 23:30
+       End Time: 12 February 2001, 12:30
+     End Variant: Variant-1
+End:
+
+Gage: Feb12_2001_sc3
+     Description: Subcuenca sc3 lluvia 10% suoerior
+     Last Modified Date: 30 January 2022
+     Last Modified Time: 16:39:48
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Cumulative
+     Units: MM
+     Data Type: INST-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 January 2022
+       Last Variant Modified Time: 16:38:12
+       Default Variant: Yes
+       DSS File Name: subcuenca1_alos_palsar.dss
+       DSS Pathname: //Feb12_2001_sc3/PRECIP-CUM//30MIN/GAGE/
+       Start Time: 11 February 2001, 23:30
+       End Time: 12 February 2001, 12:30
+     End Variant: Variant-1
+End:
+

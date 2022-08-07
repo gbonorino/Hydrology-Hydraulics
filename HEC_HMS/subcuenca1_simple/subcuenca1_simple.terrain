@@ -1,0 +1,13 @@
+Terrain Data Manager: subcuenca1_simple
+     Version: 4.8
+     Filepath Separator: \
+End:
+
+Terrain Data: Terrain 1
+     Description: 
+     Terrain File Name: terrain\Terrain_1.elevation.tif
+     Vertical Units: Meters
+     Elevation File Name: terrain\Terrain_1.elevation.tif
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 14:05:37
+End:

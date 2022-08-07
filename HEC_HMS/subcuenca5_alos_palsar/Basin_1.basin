@@ -1,0 +1,212 @@
+Basin: Basin 1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:26:01
+     Version: 4.8
+     Filepath Separator: \
+     Unit System: Metric
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+     Unregulated Output Required: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: sc1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:30:06
+     Latitude Degrees:  -65.30305555555556
+     Longitude Degrees: -26.729166666666664
+     Canvas X: 270909.99947805953
+     Canvas Y: 7041501.236866079
+     Area: 1.0291
+     Downstream: Sink-1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 48
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.868
+     Storage Coefficient: 0.37
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Sink: Sink-1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:26:01
+     Canvas X: 271915.15625
+     Canvas Y: 7040898.5
+     Computation Point: Yes
+End:
+
+Basin Layer Properties:
+     Element Layer:
+          Name: Icons
+          Layer shown: Yes
+     End Layer:
+     2D Connection Layer:
+          Layer shown: No
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:13
+          Display name: Centroidal Flowpath
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:12
+          Display name: Centroid
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:14
+          Display name: 10-85 Flowpath
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:11
+          Display name: Longest Flowpath
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Element Layer:
+          Name: Subbasins
+          Layer shown: Yes
+     End Layer:
+     Discretization Layer:
+          Layer shown: No
+     End Layer:
+     Breakpoint Layer:
+          Layer shown: Yes
+     End Layer:
+     Base Layer:
+          Name: Identified Streams
+          Layer shown: Yes
+          Properties Filename: maps\streams3525120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Accumulation
+          Layer shown: Yes
+          Properties Filename: maps\flowaccum2323120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Direction
+          Layer shown: Yes
+          Properties Filename: maps\flowdir2323120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Locations
+          Layer shown: Yes
+          Properties Filename: maps\sinklocs1823120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Fill
+          Layer shown: Yes
+          Properties Filename: maps\sinkfill1823120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Reconditioned Terrain
+          Layer shown: Yes
+          Properties Filename: maps\reconditioned1323120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Terrain
+          Layer shown: Yes
+          Properties Filename: maps\elevation4522120292022.xml
+     End Layer:
+End:
+
+Basin Spatial Properties:
+     Coordinate System: PROJCS["WGS_1984_UTM_Zone_20S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-63],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32720"]]
+     Terrain: Terrain 1
+     Threshold: 0.4
+     Break Point: Break Point 1
+          X Coordinate: 271911.13801005075
+          Y Coordinate: 7040897.213097308
+     End Break Point:
+     reach_prefix: r
+     junction_insert: true
+     junction_prefix: j
+     subbasin_prefix: sc
+End:
+
+Basin Schematic Properties:
+     Last View N: 7041126.921722743
+     Last View S: 7040752.467312485
+     Last View W: 271696.6145614023
+     Last View E: 272211.4893755069
+     Maximum View N: 7041501.236866079
+     Maximum View S: 7040898.5
+     Maximum View W: 270909.99947805953
+     Maximum View E: 271915.15625
+     Extent Method: Elements
+     Buffer: 0
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: No
+     Draw HillShade Layer: Yes
+     Draw Elevation Layer: Yes
+     Elevation Layer Color Palette: Default
+     Ignore Elevation Color Ramp Scale: No
+     Use Interpolated Color Ramp for Elevation Layer: Yes
+     Color Ramp Opacity Level for Elevation Layer: 33.0
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+End:
+
+Computation Point: Sink-1
+     Parameter Set: 1
+     End Parameter Set:
+     Parameter Set: 2
+     End Parameter Set:
+     Parameter Set: 3
+     End Parameter Set:
+     Parameter Set: 4
+     End Parameter Set:
+     Parameter Set: 5
+     End Parameter Set:
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+End Computation Point: 

@@ -1,0 +1,362 @@
+Basin: Basin 1
+     Last Modified Date: 28 January 2022
+     Last Modified Time: 20:37:15
+     Version: 4.8
+     Filepath Separator: \
+     Unit System: Metric
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+     Unregulated Output Required: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: sc3
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 14:35:26
+     Latitude Degrees:  -65.31638888888888
+     Longitude Degrees: -26.702804957538135
+     Canvas X: 269547.56187275687
+     Canvas Y: 7044387.139007045
+     Area: 2.3509
+     Downstream: j2
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 41.3
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 1.19
+     Storage Coefficient: 0.51
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Subbasin: sc1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 14:35:33
+     Latitude Degrees:  -65.30138888888888
+     Longitude Degrees: -26.699444444444445
+     Canvas X: 271022.95864634844
+     Canvas Y: 7044790.92582731
+     Area: 0.4108
+     Downstream: j2
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 48
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.58
+     Storage Coefficient: 0.25
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Junction: j2
+     Last Modified Date: 28 January 2022
+     Last Modified Time: 20:37:15
+     Canvas X: 271602.65625
+     Canvas Y: 7044498.5
+     Downstream: r2
+End:
+
+Reach: r2
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 14:00:49
+     Canvas X: 273081.4018068648
+     Canvas Y: 7044098.916800132
+     From Canvas X: 271602.65625
+     From Canvas Y: 7044498.5
+     Downstream: j1
+
+     Route: Lag
+     Initial Variable: Combined Inflow
+     Lag: 33
+     Channel Loss: None
+End:
+
+Subbasin: sc2
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 14:35:43
+     Latitude Degrees:  -65.28666666666666
+     Longitude Degrees: -26.701944444444443
+     Canvas X: 272486.3057234323
+     Canvas Y: 7044550.01388224
+     Area: 0.6528
+     Downstream: j1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 44.7
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.712
+     Storage Coefficient: 0.31
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Subbasin: sc4
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 14:36:01
+     Latitude Degrees:  -65.2911111111111
+     Longitude Degrees: -26.702777777777776
+     Canvas X: 272050.5251143625
+     Canvas Y: 7044430.274615161
+     Area: 0.5380
+     Downstream: j1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 61.8
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.912
+     Storage Coefficient: 0.39
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Junction: j1
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 14:00:49
+     Canvas X: 273081.4018068648
+     Canvas Y: 7044098.916800132
+     Downstream: r1
+End:
+
+Reach: r1
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 14:00:49
+     Canvas X: 273352.65625
+     Canvas Y: 7044036.0
+     From Canvas X: 273081.4018068648
+     From Canvas Y: 7044098.916800132
+     Downstream: Sink-1
+
+     Route: Lag
+     Initial Variable: Combined Inflow
+     Lag: 10.5
+     Channel Loss: None
+End:
+
+Subbasin: sc5
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 14:36:12
+     Latitude Degrees:  -65.27944444444444
+     Longitude Degrees: -26.70611111111111
+     Canvas X: 273216.88755193906
+     Canvas Y: 7044095.106648199
+     Area: 0.0564
+     Downstream: Sink-1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 69
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.291
+     Storage Coefficient: 0.125
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Sink: Sink-1
+     Last Modified Date: 28 January 2022
+     Last Modified Time: 20:37:15
+     Canvas X: 273352.65625
+     Canvas Y: 7044036.0
+     Computation Point: Yes
+End:
+
+Basin Layer Properties:
+     Element Layer:
+          Name: Icons
+          Layer shown: Yes
+     End Layer:
+     Element Layer:
+          Name: Reaches
+          Layer shown: Yes
+     End Layer:
+     2D Connection Layer:
+          Layer shown: No
+     End Layer:
+     Element Layer:
+          Name: Subbasins
+          Layer shown: Yes
+     End Layer:
+     Discretization Layer:
+          Layer shown: No
+     End Layer:
+     Breakpoint Layer:
+          Layer shown: Yes
+     End Layer:
+     Base Layer:
+          Name: Identified Streams
+          Layer shown: Yes
+          Properties Filename: maps\streams3628130302022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Accumulation
+          Layer shown: Yes
+          Properties Filename: maps\flowaccum3628130302022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Direction
+          Layer shown: Yes
+          Properties Filename: maps\flowdir3628130302022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Locations
+          Layer shown: Yes
+          Properties Filename: maps\sinklocs3628130302022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Fill
+          Layer shown: Yes
+          Properties Filename: maps\sinkfill3628130302022.xml
+     End Layer:
+     Base Layer:
+          Name: Reconditioned Terrain
+          Layer shown: Yes
+          Properties Filename: maps\reconditioned3628130302022.xml
+     End Layer:
+     Base Layer:
+          Name: Terrain
+          Layer shown: Yes
+          Properties Filename: maps\elevation3628130302022.xml
+     End Layer:
+End:
+
+Basin Spatial Properties:
+     Coordinate System: PROJCS["WGS_1984_UTM_Zone_20S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-63],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32720"]]
+     Terrain: Terrain 1
+     Threshold: 0.3
+     Break Point: Break Point 1
+          X Coordinate: 273350.79004860274
+          Y Coordinate: 7044032.724159531
+     End Break Point:
+     reach_prefix: r
+     junction_insert: true
+     junction_prefix: j
+     subbasin_prefix: sc
+End:
+
+Basin Schematic Properties:
+     Last View N: 7044484.684588956
+     Last View S: 7043796.665749095
+     Last View W: 272741.0265306984
+     Last View E: 273310.4214326516
+     Maximum View N: 7044790.92582731
+     Maximum View S: 7044036.0
+     Maximum View W: 269547.56187275687
+     Maximum View E: 273352.65625
+     Extent Method: Elements
+     Buffer: 0
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: No
+     Draw HillShade Layer: Yes
+     Draw Elevation Layer: Yes
+     Elevation Layer Color Palette: Default
+     Ignore Elevation Color Ramp Scale: No
+     Use Interpolated Color Ramp for Elevation Layer: Yes
+     Color Ramp Opacity Level for Elevation Layer: 33.0
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+End:
+
+Computation Point: Sink-1
+     Parameter Set: 1
+     End Parameter Set:
+     Parameter Set: 2
+     End Parameter Set:
+     Parameter Set: 3
+     End Parameter Set:
+     Parameter Set: 4
+     End Parameter Set:
+     Parameter Set: 5
+     End Parameter Set:
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+End Computation Point: 

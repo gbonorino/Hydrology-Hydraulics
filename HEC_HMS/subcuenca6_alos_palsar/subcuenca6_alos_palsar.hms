@@ -1,0 +1,51 @@
+Project: subcuenca6_alos-palsar
+     Description: 
+     Version: 4.8
+     Filepath Separator: \
+     DSS File Name: subcuenca6_alos_palsar.dss
+     Time Zone ID: America/Buenos_Aires
+End:
+
+Precipitation: Feb12_2001
+     Filename: Feb12_2001.met
+     Description: 
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 20:00
+End:
+
+Precipitation: Hietograma 1%
+     Filename: Hietograma_1_.met
+     Description: Hietograma sintético derivado de curvas IDF en Bazzano.
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:32
+End:
+
+Precipitation: Frecuencia 5%
+     Filename: Frecuencia_5_.met
+     Description: 
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:42
+End:
+
+Basin: Basin 1
+     Filename: Basin_1.basin
+     Description: 
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:57
+End:
+
+Control: Feb12_2001
+     FileName: Feb12_2001.control
+     Description: 
+End:
+
+Control: Frecuencia 5%
+     FileName: Frecuencia_5_.control
+     Description: 
+End:
+
+Control: Hietograma 1%
+     FileName: Hietograma_1_.control
+     Description: 
+End:
+

@@ -1,0 +1,46 @@
+Run: Feb12_2001
+     Default Description: Yes
+     Log File: Feb12_2001.log
+     DSS File: Feb12_2001.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 20:01:58
+     Last Execution Date: 1 February 2022
+     Last Execution Time: 20:55:54
+     Basin: Basin 1
+     Precip: Feb12_2001
+     Control: Feb12_2001
+     Time-Series Output: Save All
+End:
+
+Run: Hietograma 1%
+     Default Description: Yes
+     Log File: Hietograma_1_.log
+     DSS File: Hietograma_1_.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:27:31
+     Last Execution Date: 2 February 2022
+     Last Execution Time: 18:27:39
+     Basin: Basin 1
+     Precip: Hietograma 1%
+     Control: Hietograma 1%
+     Time-Series Output: Save All
+End:
+
+Run: Frecuencia 5%
+     Default Description: Yes
+     Log File: Frecuencia_5_.log
+     DSS File: Frecuencia_1_.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:43:27
+     Last Execution Date: 2 February 2022
+     Last Execution Time: 18:43:47
+     Basin: Basin 1
+     Precip: Frecuencia 5%
+     Control: Frecuencia 5%
+     Save State Type: None
+     Time-Series Output: Save All
+End:
+

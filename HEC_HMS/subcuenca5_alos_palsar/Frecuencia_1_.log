@@ -1,0 +1,4 @@
+NOTE 15301:  Began computing simulation run "Frecuencia 1%" at time 30Jan2022, 12:37:08.
+ERROR 20025:  Precipitation depth values must be in ascending order beginning at value "120.0".
+ERROR 20358:  Found "1" errors in meteorologic model "Frecuencia 1%".
+WARNING 15303:  Aborted run "Frecuencia 1%" at time 30Jan2022, 12:37:08.

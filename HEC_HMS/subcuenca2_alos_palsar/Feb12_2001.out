@@ -1,0 +1,12 @@
+    -----DSS---ZOPEN:  Existing File Opened,  File: D:\Gustavo\Proy_en_curso\inundaciones\Tucuman\DETEM_TafiViejo\HMS\subcuenca2_alos_palsar\subcuenca2_alos_palsar.dss
+                       Unit:    3;  DSS Versions - Software: 6-YN, File: 6-YN,  Library 7-HK
+    -----DSS---ZOPEN:  Existing File Opened,  File: D:\Gustavo\Proy_en_curso\inundaciones\Tucuman\DETEM_TafiViejo\HMS\subcuenca2_alos_palsar\Feb12_2001.dss
+                       Unit:    4;  DSS Versions - Software: 6-YN, File: 6-YN,  Library 7-HK
+ -----DSS*** zrrts6:  CAUTION - Data block not found in file.  Unit:    4
+ Pathname: //J2/FLOW-LOCAL/01FEB2001/15MIN/RUN:FEB12_2001/
+ -----DSS*** zrrts6:  CAUTION - Data block not found in file.  Unit:    4
+ Pathname: //J2/FLOW-LOCAL-SIM/01FEB2001/15MIN/RUN:FEB12_2001/
+ -----DSS*** zrrts6:  CAUTION - Data block not found in file.  Unit:    4
+ Pathname: //J1/FLOW-LOCAL/01FEB2001/15MIN/RUN:FEB12_2001/
+ -----DSS*** zrrts6:  CAUTION - Data block not found in file.  Unit:    4
+ Pathname: //J1/FLOW-LOCAL-SIM/01FEB2001/15MIN/RUN:FEB12_2001/

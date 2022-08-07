@@ -1,0 +1,55 @@
+Meteorology: Frecuencia 5%
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:39:40
+     Version: 4.8
+     Unit System: Metric
+     Set Missing Data to Default: Yes
+     Precipitation Method: Frequency Based Hypothetical
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: No Evapotranspiration
+     Use Basin Model: Basin 1
+End:
+
+Precip Method Parameters: Frequency Based Hypothetical
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:42:23
+     Storm Type: Hydro-35/TP-40/TP-49
+     Single Hypothetical Storm Size: Yes
+     Convert From Annual Series: Yes
+     Convert to Annual Series: Yes
+     Uniform Depth Duration Curve: Yes
+     Storm Size: 
+     Total Duration: 60
+     Time Interval: 5
+     Percent of Duration Before Peak Rainfall: 50
+     Depth-Area Reduction Method: No Reduction
+     Depth: 23
+     Depth: 38
+     Depth: 69
+     Depth: 
+     Depth: 
+     Depth: 
+     Depth: 
+     Depth: 
+     Depth: 
+     Depth: 
+     Depth: 
+     Depth: 
+End:
+
+Subbasin: sc1
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:42:23
+End:
+
+Subbasin: sc2
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:42:23
+End:
+
+Subbasin: sc3
+     Last Modified Date: 2 February 2022
+     Last Modified Time: 18:42:23
+End:

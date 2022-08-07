@@ -1,0 +1,27 @@
+Project: subcuenca2_alos-palsar
+     Description: 
+     Version: 4.8
+     Filepath Separator: \
+     DSS File Name: subcuenca2_alos_palsar.dss
+     Time Zone ID: America/Buenos_Aires
+End:
+
+Precipitation: Feb12_2001
+     Filename: Feb12_2001.met
+     Description: 
+     Last Modified Date: 31 January 2022
+     Last Modified Time: 16:29
+End:
+
+Basin: Basin 1
+     Filename: Basin_1.basin
+     Description: 
+     Last Modified Date: 31 January 2022
+     Last Modified Time: 16:26
+End:
+
+Control: Feb12_2001
+     FileName: Feb12_2001.control
+     Description: 
+End:
+

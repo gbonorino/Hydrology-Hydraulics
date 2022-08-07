@@ -1,0 +1,42 @@
+Run: Feb12_2001
+     Default Description: Yes
+     Log File: Feb12_2001.log
+     DSS File: Feb12_2001.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 20:19:56
+     Last Execution Date: 1 February 2022
+     Last Execution Time: 20:53:17
+     Basin: Basin 1
+     Precip: Feb12_2001
+     Control: Feb12_2001
+     Save State Type: None
+     Time-Series Output: Save All
+End:
+
+Run: Frecuencia 1%
+     Default Description: Yes
+     Log File: Frecuencia_1_.log
+     DSS File: Frecuencia_1_.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 30 January 2022
+     Last Modified Time: 15:31:26
+     Basin: Basin 1
+     Precip: Frecuencia 1%
+     Control: Frecuencai 1%
+     Time-Series Output: Save All
+End:
+
+Run: Run 1
+     Default Description: Yes
+     Log File: Run_1.log
+     DSS File: Run_1.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 30 January 2022
+     Last Modified Time: 15:37:47
+     Basin: Basin 1
+     Precip: Frecuencia 1%
+     Control: Frecuencai 1%
+     Time-Series Output: Save All
+End:
+

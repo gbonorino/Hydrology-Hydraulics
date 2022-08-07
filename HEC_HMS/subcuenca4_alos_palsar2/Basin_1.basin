@@ -1,0 +1,305 @@
+Basin: Basin 1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:10:03
+     Version: 4.8
+     Filepath Separator: \
+     Unit System: Metric
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+     Unregulated Output Required: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: sc1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:17:52
+     Latitude Degrees:  -65.31472222222222
+     Longitude Degrees: -26.721666666666664
+     Canvas X: 269734.3859218973
+     Canvas Y: 7042293.435805991
+     Area: 2.1906
+     Downstream: j1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 45.5
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 1.27
+     Storage Coefficient: 0.54
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Subbasin: sc2
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:17:58
+     Latitude Degrees:  -65.29804261729193
+     Longitude Degrees: -26.723055555555554
+     Canvas X: 271406.7426168808
+     Canvas Y: 7042169.886509636
+     Area: 0.4378
+     Downstream: j1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 48
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.65
+     Storage Coefficient: 0.28
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Junction: j1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:10:03
+     Canvas X: 271927.65625
+     Canvas Y: 7041648.5
+     Downstream: r1
+End:
+
+Reach: r1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:16:46
+     Canvas X: 271990.15625
+     Canvas Y: 7041611.0
+     From Canvas X: 271927.65625
+     From Canvas Y: 7041648.5
+     Downstream: Sink-1
+
+     Route: Lag
+     Initial Variable: Combined Inflow
+     Lag: 7.2
+     Channel Loss: None
+End:
+
+Subbasin: sc3
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:18:07
+     Latitude Degrees:  -65.29222222222222
+     Longitude Degrees: -26.727777777777778
+     Canvas X: 272006.484375
+     Canvas Y: 7041673.34375
+     Area: 0.0250
+     Downstream: Sink-1
+
+     Discretization: None
+     File: Basin_1.sqlite
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 48
+     Initial Abstraction: 0
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.2
+     Storage Coefficient: 0.086
+     Time Area Method: Default
+
+     Baseflow: None
+End:
+
+Sink: Sink-1
+     Last Modified Date: 29 January 2022
+     Last Modified Time: 15:10:03
+     Canvas X: 271990.15625
+     Canvas Y: 7041611.0
+     Computation Point: Yes
+End:
+
+Basin Layer Properties:
+     Element Layer:
+          Name: Icons
+          Layer shown: Yes
+     End Layer:
+     Element Layer:
+          Name: Reaches
+          Layer shown: Yes
+     End Layer:
+     2D Connection Layer:
+          Layer shown: No
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:13
+          Display name: Centroidal Flowpath
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:12
+          Display name: Centroid
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:14
+          Display name: 10-85 Flowpath
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: Basin_1.sqlite
+          Layer:11
+          Display name: Longest Flowpath
+          Minimum Scale: Undefined
+          Maximum Scale: Undefined
+          Layer shown: Yes
+     End Layer:
+     Element Layer:
+          Name: Subbasins
+          Layer shown: Yes
+     End Layer:
+     Discretization Layer:
+          Layer shown: No
+     End Layer:
+     Breakpoint Layer:
+          Layer shown: Yes
+     End Layer:
+     Base Layer:
+          Name: Identified Streams
+          Layer shown: Yes
+          Properties Filename: maps\streams3509120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Accumulation
+          Layer shown: Yes
+          Properties Filename: maps\flowaccum1609120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Direction
+          Layer shown: Yes
+          Properties Filename: maps\flowdir1609120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Locations
+          Layer shown: Yes
+          Properties Filename: maps\sinklocs0909120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Fill
+          Layer shown: Yes
+          Properties Filename: maps\sinkfill0909120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Reconditioned Terrain
+          Layer shown: Yes
+          Properties Filename: maps\reconditioned0409120292022.xml
+     End Layer:
+     Base Layer:
+          Name: Terrain
+          Layer shown: Yes
+          Properties Filename: maps\elevation2908120292022.xml
+     End Layer:
+End:
+
+Basin Spatial Properties:
+     Coordinate System: PROJCS["WGS_1984_UTM_Zone_20S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-63],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32720"]]
+     Terrain: Terrain 1
+     Threshold: 0.4
+     Break Point: Break Point 1
+          X Coordinate: 271985.42232588085
+          Y Coordinate: 7041612.000336541
+     End Break Point:
+     reach_prefix: r
+     junction_insert: true
+     junction_prefix: j
+     subbasin_prefix: sc
+End:
+
+Basin Schematic Properties:
+     Last View N: 7042046.203500513
+     Last View S: 7041378.443502684
+     Last View W: 271375.69647527824
+     Last View E: 272117.6520284221
+     Maximum View N: 7042293.435805991
+     Maximum View S: 7041611.0
+     Maximum View W: 269734.3859218973
+     Maximum View E: 272006.484375
+     Extent Method: Elements
+     Buffer: 0
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: No
+     Draw HillShade Layer: Yes
+     Draw Elevation Layer: Yes
+     Elevation Layer Color Palette: Default
+     Ignore Elevation Color Ramp Scale: No
+     Use Interpolated Color Ramp for Elevation Layer: Yes
+     Color Ramp Opacity Level for Elevation Layer: 33.0
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+End:
+
+Computation Point: Sink-1
+     Parameter Set: 1
+     End Parameter Set:
+     Parameter Set: 2
+     End Parameter Set:
+     Parameter Set: 3
+     End Parameter Set:
+     Parameter Set: 4
+     End Parameter Set:
+     Parameter Set: 5
+     End Parameter Set:
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+End Computation Point: 
